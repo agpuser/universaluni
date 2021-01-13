@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<catalog>
+	<furniture id="1" type="furniture">
+		<ftype>chair</ftype>
+		<product>Emma Tub Armchair </product>
+		<brand>Universal</brand>
+		<price>170</price>
+		<details>
+			The Emma Armchair is sure to be your chair of choice in any room. The fabric-upholstered seat has been covered with delicate linen fabric and filled with 17cm thick foam cushioning for extra comfort. 
+		</details>
+		<material>
+			<mtype>Linen fabric</mtype>
+			<mtype>Wood</mtype>
+		</material>
+		<care>
+			Its solid rubberwood legs feature a contemporary criss-cross design for stability.
+		</care>
+		<fimageone>emma-tub-armchair-1.jpg</fimageone>
+		<fimagetwo>emma-tub-armchair-2.jpg</fimagetwo>
+	</furniture>
+	<furniture id="2" type="furniture">
+		<ftype>chair</ftype>
+		<product>Spencer Swivel Chair</product>
+		<brand>Ikea</brand>
+		<price>199</price>
+		<details>
+			Add a touch of cutting edge style to your living room with the Spencer Swivel Chair. Stylishly upholstered in smart polyurethane with button-back detailing, the modern European design will add a contemporary flourish to any home.	
+		</details>
+		<material>
+			<mtype>Linen fabric</mtype>
+			<mtype>Wood</mtype>
+		</material>
+		<care>
+			The slim metal base and armless design makes this compact statement chair a great space saver and the padded seat and back provide generous comfort.
+		</care>
+		<fimageone>spencer-swivel-chair-1.jpg</fimageone>
+		<fimagetwo>spencer-swivel-chair-2.jpg</fimagetwo>
+	</furniture>
+	<furniture id="3" type="furniture">
+		<ftype>chair</ftype>
+		<product>Carter Tub Chair</product>
+		<brand>The Factory</brand>
+		<price>169</price>
+		<details>
+		With a deep back and sides and a smooth, rounded design, this smart chair will cocoon you while you sit or curl up.  Stylish and comfortable, the Carter Chair makes a great occasional chair for the home or office.
+		</details>
+		<material>
+			<mtype>Linen fabric</mtype>
+			<mtype>Wood</mtype>
+		</material>
+		<care>Generously padded for comfort, this chair is upholstered in easy-to-clean polyurethane - great for busy households and work reception areas.
+		</care>
+		<fimageone>carter-tub-chair-1.jpg</fimageone>
+		<fimagetwo>carter-tub-chair-2.jpg</fimagetwo>
+	</furniture>
+	<furniture id="4" type="furniture">
+		<ftype>chair</ftype>
+		<product>Jazz Armchair</product>
+		<brand>Fantastic</brand>
+		<price>349</price>
+		<details>
+		Jazz up your lounge room with the fabulous Jazz Armchair, featuring an ultra trendy design with streamlined arms, timber legs and plump seats. Stitched and pulled-in back cushions give this sofa a designer flair. 
+		</details>
+		<material>
+			<mtype>Linen fabric</mtype>
+			<mtype>Wood</mtype>
+		</material>
+		<care>Deep seats with black cat webbing, provide the ultimate in comfort while the ergonomic design ensures your get the support you need while you relax in style.</care>
+		<fimageone>jazz-armchair-1.jpg</fimageone>
+		<fimagetwo>jazz-armchair-2.jpg</fimagetwo>
+	</furniture>
+	<furniture id="5" type="furniture">
+		<ftype>bed</ftype>
+		<product>Gecko Single Bed Trundle</product>
+		<brand>Universal</brand>
+		<price>69</price>
+		<details>
+		Make the most of your space and manage sleepovers without the hassle. The super-convenient Gecko Trundle is built from strong tubular steel and powder coated for superior chip resistance. Lockable wheels allow you to simply roll out the trundle when needed and store back under the bed when not in use. (Mattress Not Included) 
+		</details>
+		<material>
+			<mtype>Steel</mtype>
+		</material>
+		<care>Featuring a solid steel tube frame and locakable wheels for stability this trundle has been built to last.</care>
+		<fimageone>gecko-single-bed-trundle-1.jpg</fimageone>
+		<fimagetwo>gecko-single-bed-trundle-2.jpg</fimagetwo>
+	</furniture>
+	<furniture id="6" type="furniture">
+		<ftype>bed</ftype>
+		<product>Bingo Single Bed</product>
+		<brand>Ikea</brand>
+		<price>69</price>
+		<details>
+		Bingo! You've found the best value bed in town. With a metal frame and a straightforward design this bed has sturdy contruction, is easy to decorate and has plenty of storage space underneath. 
+		</details>
+		<material>
+			<mtype>Steel</mtype>
+		</material>
+		<care>The matte black frame is easy to coordinate with a wide range of bed linen.</care>
+		<fimageone>bingo-single-bed-1.jpg</fimageone>
+		<fimagetwo>bingo-single-bed-2.jpg</fimagetwo>
+	</furniture>
+	<furniture id="7" type="furniture">
+		<ftype>bed</ftype>
+		<product>Zac Single Bed</product>
+		<brand>Fantastic</brand>
+		<price>99</price>
+		<details>
+		The Zac single bed combines solid pine and metal dowels to create a bed with a versatile, light look. (Mattress not included). 
+		</details>
+		<material>
+			<mtype>Wood</mtype>
+		</material>
+		<care>A 5 stage staining and lacquering process done by hand, results in a rich and durable finish that wears, knocks and scratches well. Variations in the wood are to be expected.</care>
+		<fimageone>zac-single-bed-1.jpg</fimageone>
+		<fimagetwo>zac-single-bed-2.jpg</fimagetwo>
+	</furniture>
+	<furniture id="8" type="furniture">
+		<ftype>bed</ftype>
+		<product>My First Toddler Bed</product>
+		<brand>Artdeco</brand>
+		<price>129</price>
+		<details>
+		Set low to the ground for easy access, little ones will feel so grown-up when they climb into bed all by themselves with this fabulous first bed.  High sides provide comfort and security so toddlers can sleep soundly all night long. 
+		</details>
+		<material>
+			<mtype>Wood</mtype>
+		</material>
+		<care>Finished in a stylish light oak and white, the look is smart and contemporary and suits both boys and girls rooms alike.</care>
+		<fimageone>my-first-toddler-bed-1.jpg</fimageone>
+		<fimagetwo>my-first-toddler-bed-2.jpg</fimagetwo>
+	</furniture>
+	<furniture id="9" type="furniture">
+		<ftype>table</ftype>
+		<product>Host Tray Table</product>
+		<brand>Universal</brand>
+		<price>29</price>
+		<details>
+		This handy tray table folds flat and stores neatly out of the way when not in use, making a great space saving furniture choice for occasional use. 
+		</details>
+		<material>
+			<mtype>Wood</mtype>
+		</material>
+		<care>This tidy table makes entertaining and TV dinners quick and easy.</care>
+		<fimageone>host-tray-table-1.jpg</fimageone>
+		<fimagetwo>host-tray-table-2.jpg</fimagetwo>
+	</furniture>
+	<furniture id="10" type="furniture">
+		<ftype>table</ftype>
+		<product>Geo Multi-Use Table </product>
+		<brand>Ikea</brand>
+		<price>40</price>
+		<details>
+		For a handy coffee table or TV stand with storage, check out the versatile Geo Multi-Use table. 
+		</details>
+		<material>
+			<mtype>Wood</mtype></material>
+		<care>This utility table is great for everyday use thanks to its hardwearing melamine top.</care>
+		<fimageone>geomulti-use-table-1.jpg</fimageone>
+		<fimagetwo>geomulti-use-table-2.jpg</fimagetwo>
+	</furniture>
+	<furniture id="11" type="furniture">
+		<ftype>table</ftype>
+		<product>Hayman Coffee Table </product>
+		<brand>Fantastic</brand>
+		<price>99</price>
+		<details>
+		Add a relaxed vibe to your lounge room with this smart white Hayman Coffee Table. Featuring slatted sides and a slimline design, this versatile coffee table will add a laid-back coastal look to your home. 
+		</details>
+		<material>
+			<mtype>Wood</mtype>
+		</material>
+		<care>A generously sized top and shelf underneath gives plenty of room to store reading material and keep remotes to hand. </care>
+		<fimageone>hayman-coffee-table-1.jpg</fimageone>
+		<fimagetwo>hayman-coffee-table-2.jpg</fimagetwo>
+	</furniture>
+	<furniture id="12" type="furniture">
+		<ftype>table</ftype>
+		<product>Studio Coffee Table </product>
+		<brand>The Factory</brand>
+		<price>129</price>
+		<details>
+		Featuring a combination of timber look panels and a black metal frame, this smart coffee table will add a touch of industrial style to your home. A warm wood foil finish gives a realistic timber look for a great price. 
+		</details>
+		<material>
+			<mtype>Wood</mtype>
+			<mtype>Steel</mtype>
+		</material>
+		<care>The quality foil and metal materials provide a strong, hardwearing surface for long-lasting use, backed by a three-year warranty. </care>
+		<fimageone>studio-coffee-table-1.jpg</fimageone>
+		<fimagetwo>studio-coffee-table-2.jpg</fimagetwo>
+	</furniture>
+	<furniture id="13" type="furniture">
+		<ftype>storage</ftype>
+		<product>Lynx Small Wide Bookcase </product>
+		<brand>Universal</brand>
+		<price>59</price>
+		<details>
+		Adjustable shelves allow you to display items of different heights. Create a stylish cabinet and prevent dust build up by adding two glass doors.  
+		</details>
+		<material>
+			<mtype>Wood</mtype>
+		</material>
+		<care>Add glass doors to create a stylish cabinet for glassware, ornaments or office files.</care>
+		<fimageone>lynx-small-wide-bookcase-1.jpg</fimageone>
+		<fimagetwo>lynx-small-wide-bookcase-2.jpg</fimagetwo>
+	</furniture>
+	<furniture id="14" type="furniture">
+		<ftype>storage</ftype>
+		<product>Coda 2 Drawer Insert </product>
+		<brand>Ikea</brand>
+		<price>59</price>
+		<details>
+		This handy 2-drawer unit provides great additional storage where you need it most. Use as a shelf insert with the Coda 6 and 10 Shelf bookcase, as a wardrobe insert or as a free-standing drawer unit for your desk or shelf to keep paperwork and stationery neatly stored away. 
+		</details>
+		<material>
+			<mtype>Wood</mtype>
+		</material>
+		<care>Smooth metal runners make these drawers easy to open and close for everyday ease of use.</care>
+		<fimageone>coda-2-drawer-insert-1.jpg</fimageone>
+		<fimagetwo>coda-2-drawer-insert-2.jpg</fimagetwo>
+	</furniture>
+	<furniture id="15" type="furniture">
+		<ftype>storage</ftype>
+		<product>Alpine 2 Door Wardobe</product>
+		<brand>Ikea</brand>
+		<price>99</price>
+		<details>
+		The sleek look and incredible price of this robe make it a smart buy. With plenty of hanging space it's an ideal storage solution in the in the spareroom or kids room.A Hanging rail is included.  
+		</details>
+		<material>
+			<mtype>Wood</mtype>
+		</material>
+		<care>Sleek, silver coloured handles and a smart brown-black finish give a stylish, contemporary look.</care>
+		<fimageone>alpine-2-door-wardobe-1.jpg</fimageone>
+		<fimagetwo>alpine-2-door-wardobe-2.jpg</fimagetwo>
+	</furniture>
+	<furniture id="16" type="furniture">
+		<ftype>storage</ftype>
+		<product>Home 2 Door Wardrobe </product>
+		<brand>Artdeco</brand>
+		<price>459</price>
+		<details>
+		Get the look and convenience of a built-in wardrobes without the need to commit to expensive home renovations. The freestanding 120 cm Home Robe features two aluminium framed sliding doors, a fixed top shelf, and a strong hanging rail. Cheating has never been easier with this no fuss solution.  
+		</details>
+		<material>
+			<mtype>Wood</mtype>
+		</material>
+		<care>Shock-absorbing bumper strips reduce noise and impact when opening and closing the doors.</care>
+		<fimageone>home-2-door-wardrobe-1.jpg</fimageone>
+		<fimagetwo>home-2-door-wardrobe-2.jpg</fimagetwo>
+	</furniture>
+
+</catalog>
+	

@@ -1,0 +1,193 @@
+$output = '<div id="content">
+            <div class="container">
+
+                <div class="col-md-12">
+                    <ul class="breadcrumb">
+                        <li><a href="index.php">Home</a>
+                        </li>
+                        <li>Contact</li>
+                    </ul>
+
+                </div>
+
+                <div class="col-md-3">
+                    <!-- *** PAGES MENU ***
+ _________________________________________________________ -->
+                    <div class="panel panel-default sidebar-menu">
+
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Pages</h3>
+                        </div>
+
+                        <div class="panel-body">
+                            <ul class="nav nav-pills nav-stacked">
+                                <li>
+                                    <a href="aboutus.php">About us</a>
+                                </li>
+                                <li>
+                                    <a href="terms.php">Terms and conditions</a>
+                                </li>
+                                <li>
+                                    <a href="contact.php">Contact page</a>
+                                </li>
+                                <li>
+                                    <a href="faq.php">FAQ</a>
+                                </li>
+
+                            </ul>
+
+                        </div>
+                    </div>
+
+                    <!-- *** PAGES MENU END *** -->
+
+
+                    <div class="banner">
+                        <a href="#">
+                            <img src="img/banner.jpg" alt="sales 2014" class="img-responsive">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-md-9">
+
+
+                    <div class="box" id="contact">
+                        <h1>Contact</h1>
+
+                        <p class="lead">Are you curious about something? Do you have some kind of problem with our products?</p>
+                        <p>Please feel free to contact us, our customer service center is working for you 24/7.</p>
+
+                        <hr>
+
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <h3><i class="fa fa-map-marker"></i> Address</h3>
+                                <p><strong>Universal Ltd.</strong>
+                                    <br>500 Main Street
+									<br>Geelong
+									<br>Victoria 3200
+									<br>
+									<strong>Australia</strong>
+                                </p>
+                            </div>
+                            <!-- /.col-sm-4 -->
+                            <div class="col-sm-4">
+                                <h3><i class="fa fa-phone"></i> Call center</h3>
+                                <p class="text-muted">This number is toll free if calling from Australia otherwise we advise you to use the electronic form of communication.</p>
+                                <p><strong>+61 800 5244 0000</strong>
+                                </p>
+                            </div>
+                            <!-- /.col-sm-4 -->
+                            <div class="col-sm-4">
+                                <h3><i class="fa fa-envelope"></i> Electronic support</h3>
+                                <p class="text-muted">Please feel free to write an email to us.</p>
+                                <ul>
+                                    <li><strong><a href="mailto:">info@Universal.com</a></strong>
+                                    </li>                                    
+                                </ul>
+                            </div>
+                            <!-- /.col-sm-4 -->
+                        </div>
+                        <!-- /.row -->
+
+                        <hr>
+
+                        <div id="map">
+
+                        </div>
+
+                        <hr>
+                        <h2>Contact form</h2>
+
+                        <form method="post" action="contact.php" id="contact" name="contact">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <label for="firstname">Firstname</label>';
+										if (isset($_POST['contactsubmit']))
+											$output .= '<input type="text" class="form-control" name="contactfirstname" id="contactfirstname" value="'.$validFields[CFIRSTNAME].'">';
+										else
+											$output .= '<input type="text" class="form-control" name="contactfirstname" id="contactfirstname">';
+									$output .= '</div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <label for="lastname">Lastname</label>';
+										if (isset($_POST['contactsubmit']))
+											$output .= '<input type="text" class="form-control" name="contactlastname" id="contactlastname" value="'.$validFields[CLASTNAME].'">';
+										else
+											$output .= '<input type="text" class="form-control" name="contactlastname" id="contactlastname">';
+                                    $output .= '</div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <label for="email">Email</label>';
+										if (isset($_POST['contactsubmit']))
+											$output .= '<input type="text" class="form-control" name="contactemail" id="contactemail" value="'.$validFields[CEMAIL].'">';
+										else
+											$output .= '<input type="text" class="form-control" name="contactemail" id="contactemail">';
+                                    $output .= '</div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <label for="subject">Subject</label>';
+										if (isset($_POST['contactsubmit']))
+											$output .= '<input type="text" class="form-control" name="contactsubject" id="contactsubject" value="'.$validFields[CSUBJECT].'">';
+										else
+											$output .= '<input type="text" class="form-control" name="contactsubject" id="contactsubject">';
+                                    $output .= '</div>
+                                </div>
+                                <div class="col-sm-12">
+                                    <div class="form-group">
+                                        <label for="message">Message</label>';
+										if (isset($_POST['contactsubmit']))
+											$output .= '<textarea name="contactmessage" id="contactmessage" class="form-control" maxlength="300" rows="5" placeholder="Maximum 300 characters">'.$validFields[CMESSAGE].'</textarea>';
+										else
+											$output .= '<textarea name="contactmessage" id="contactmessage" class="form-control" maxlength="300" rows="5" placeholder="Maximum 300 characters"></textarea>';
+                                    $output .= '</div>
+                                </div>
+								
+								<div class="col-sm-12">';
+								//Create radom text
+								$_SESSION['captchacontact'] = rand(100, 10000);
+								$c = (string)$_SESSION['captchacontact'];
+								
+								// Create random file name
+								$suffix = rand(10001, 20000);
+								$fname = (string)$suffix;
+								
+								//Create a new captcha
+								$captcha = new captcha();
+								$captcha->create($c, $fname);
+								$output .= '<p><img alt="captcha" src="./captcha/'.$fname.'.png" /></p>';
+								$output .= '<p>Please enter code shown in image to confim your message:<br /><input type="text" name="captcha" /></p>';
+								
+								if (isset($_POST['contactsubmit']))
+								{
+									if ($validationError != NONE)
+										$output .= '<p class="invalid">Contact field <b>'.$errorLabels[$validationError].'</b> is empty. Please enter a value.</p>';
+										
+									else
+										$output .= '<p class="invalid">Code entered does not match image. Please try again.</p>';
+								}
+                                $output .= '</div>
+								
+								<div class="col-sm-12">
+                                    <button type="submit" name="contactsubmit" class="btn btn-primary"><i class="fa fa-envelope-o"></i> Send message</button>
+
+                                </div>
+                            </div>
+                            <!-- /.row -->
+                        </form>
+
+
+                    </div>
+
+
+                </div>
+                <!-- /.col-md-9 -->
+            </div>
+            <!-- /.container -->
+        </div>
+        <!-- /#content -->';

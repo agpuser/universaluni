@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<catalog>
+	<furniture id="1">
+		<ftype>chair</ftype>
+		<product>Spencer Swivel Chair</product>
+		<brand>Ikea</brand>
+		<price>AU$199</price>
+		<details>
+			Add a touch of cutting edge style to your living room with the Spencer Swivel Chair. Stylishly upholstered in smart polyurethane with button-back detailing, the modern European design will add a contemporary flourish to any home.
+		</details>
+		<material>
+			<mtype>Linen fabric</mtype>
+			<mtype>Wood</mtype>
+		</material>
+		<care>
+			The slim metal base and armless design makes this compact statement chair a great space saver and the padded seat and back provide generous comfort.
+		</care>
+		<fimageone>emma-tub-armchair-1.jpg</fimageone>
+		<fimageone>emma-tub-armchair-2.jpg</fimageone>
+	</furniture>
+	<furniture id="2">
+		<ftype>chair</ftype>
+		<product>Spencer Swivel Chair</product>
+		<brand>Ikea</brand>
+		<price>AU$199</price>
+		<details>
+			Add a touch of cutting edge style to your living room with the Spencer Swivel Chair. Stylishly upholstered in smart polyurethane with button-back detailing, the modern European design will add a contemporary flourish to any home.	
+		</details>
+		<material>
+			<mtype>Linen fabric</mtype>
+			<mtype>Wood</mtype>
+		</material>
+		<care>
+			The slim metal base and armless design makes this compact statement chair a great space saver and the padded seat and back provide generous comfort.
+		</care>
+		<fimageone>spencer-swivel-chair-1.jpg</fimageone>
+		<fimageone>spencer-swivel-chair-2.jpg</fimageone>
+	</furniture>
+	<furniture id="X">
+		<ftype>chair</ftype>
+		<product></product>
+		<brand></brand>
+		<price></price>
+		<details>
+		</details>
+		<material>
+			<mtype></mtype>
+			<mtype></mtype>
+		</material>
+		<care>
+		</care>
+		<fimageone></fimageone>
+		<fimageone></fimageone>
+	</furniture>
+</catalog>
+	

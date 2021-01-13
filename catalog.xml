@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+/**************************
+ * SIT203 Web Programming
+ * Assignment 1
+ * Aaron Pethybridge
+ * Student#: 217561644
+ * catalog.xml
+ **************************/
+-->
+
+<catalog>
+	<catalogproduct id="1" type="furniture">
+		<subtype>chair</subtype>
+		<product>Emma Tub Armchair</product>
+		<brand>Universal</brand>
+		<price>170</price>
+		<details>
+			The Emma Armchair is sure to be your chair of choice in any room. The fabric-upholstered seat has been covered with delicate linen fabric and filled with 17cm thick foam cushioning for extra comfort. 
+		</details>
+		<material>
+			<mtype>Linen fabric</mtype>
+			<mtype>Wood</mtype>
+		</material>
+		<care>
+			Its solid rubberwood legs feature a contemporary criss-cross design for stability.
+		</care>
+		<imageone>emma-tub-armchair-1.jpg</imageone>
+		<imagetwo>emma-tub-armchair-2.jpg</imagetwo>
+		<heroimage>emma-tub-armchair-hero.jpg</heroimage>
+	</catalogproduct>
+	<catalogproduct id="2" type="furniture">
+		<subtype>chair</subtype>
+		<product>Spencer Swivel Chair</product>
+		<brand>Ikea</brand>
+		<price>199</price>
+		<details>
+			Add a touch of cutting edge style to your living room with the Spencer Swivel Chair. Stylishly upholstered in smart polyurethane with button-back detailing, the modern European design will add a contemporary flourish to any home.	
+		</details>
+		<material>
+			<mtype>Linen fabric</mtype>
+			<mtype>Wood</mtype>
+		</material>
+		<care>
+			The slim metal base and armless design makes this compact statement chair a great space saver and the padded seat and back provide generous comfort.
+		</care>
+		<imageone>spencer-swivel-chair-1.jpg</imageone>
+		<imagetwo>spencer-swivel-chair-2.jpg</imagetwo>
+		<heroimage>spencer-swivel-chair-hero.jpg</heroimage>
+	</catalogproduct>
+	<catalogproduct id="3" type="furniture">
+		<subtype>chair</subtype>
+		<product>Carter Tub Chair</product>
+		<brand>The Factory</brand>
+		<price>169</price>
+		<details>
+		With a deep back and sides and a smooth, rounded design, this smart chair will cocoon you while you sit or curl up.  Stylish and comfortable, the Carter Chair makes a great occasional chair for the home or office.
+		</details>
+		<material>
+			<mtype>Linen fabric</mtype>
+			<mtype>Wood</mtype>
+		</material>
+		<care>Generously padded for comfort, this chair is upholstered in easy-to-clean polyurethane - great for busy households and work reception areas.
+		</care>
+		<imageone>carter-tub-chair-1.jpg</imageone>
+		<imagetwo>carter-tub-chair-2.jpg</imagetwo>
+		<heroimage>carter-tub-chair-hero.jpg</heroimage>
+	</catalogproduct>
+	<catalogproduct id="4" type="furniture">
+		<subtype>chair</subtype>
+		<product>Jazz Armchair</product>
+		<brand>Fantastic</brand>
+		<price>349</price>
+		<details>
+		Jazz up your lounge room with the fabulous Jazz Armchair, featuring an ultra trendy design with streamlined arms, timber legs and plump seats. Stitched and pulled-in back cushions give this sofa a designer flair. 
+		</details>
+		<material>
+			<mtype>Linen fabric</mtype>
+			<mtype>Wood</mtype>
+		</material>
+		<care>Deep seats with black cat webbing, provide the ultimate in comfort while the ergonomic design ensures your get the support you need while you relax in style.</care>
+		<imageone>jazz-armchair-1.jpg</imageone>
+		<imagetwo>jazz-armchair-2.jpg</imagetwo>
+		<heroimage>jazz-armchair-hero.jpg</heroimage>
+	</catalogproduct>
+	<catalogproduct id="5" type="furniture">
+		<subtype>bed</subtype>
+		<product>Gecko Single Bed Trundle</product>
+		<brand>Universal</brand>
+		<price>69</price>
+		<details>
+		Make the most of your space and manage sleepovers without the hassle. The super-convenient Gecko Trundle is built from strong tubular steel and powder coated for superior chip resistance. Lockable wheels allow you to simply roll out the trundle when needed and store back under the bed when not in use. (Mattress Not Included) 
+		</details>
+		<material>
+			<mtype>Steel</mtype>
+		</material>
+		<care>Featuring a solid steel tube frame and locakable wheels for stability this trundle has been built to last.</care>
+		<imageone>gecko-single-bed-trundle-1.jpg</imageone>
+		<imagetwo>gecko-single-bed-trundle-2.jpg</imagetwo>
+		<heroimage>gecko-single-bed-trundle-hero.jpg</heroimage>
+	</catalogproduct>
+	<catalogproduct id="6" type="furniture">
+		<subtype>bed</subtype>
+		<product>Bingo Single Bed</product>
+		<brand>Ikea</brand>
+		<price>69</price>
+		<details>
+		Bingo! You've found the best value bed in town. With a metal frame and a straightforward design this bed has sturdy contruction, is easy to decorate and has plenty of storage space underneath. 
+		</details>
+		<material>
+			<mtype>Steel</mtype>
+		</material>
+		<care>The matte black frame is easy to coordinate with a wide range of bed linen.</care>
+		<imageone>bingo-single-bed-1.jpg</imageone>
+		<imagetwo>bingo-single-bed-2.jpg</imagetwo>
+		<heroimage>bingo-single-bed-hero.jpg</heroimage>
+	</catalogproduct>
+	<catalogproduct id="7" type="furniture">
+		<subtype>bed</subtype>
+		<product>Zac Single Bed</product>
+		<brand>Fantastic</brand>
+		<price>99</price>
+		<details>
+		The Zac single bed combines solid pine and metal dowels to create a bed with a versatile, light look. (Mattress not included). 
+		</details>
+		<material>
+			<mtype>Wood</mtype>
+		</material>
+		<care>A 5 stage staining and lacquering process done by hand, results in a rich and durable finish that wears, knocks and scratches well. Variations in the wood are to be expected.</care>
+		<imageone>zac-single-bed-1.jpg</imageone>
+		<imagetwo>zac-single-bed-2.jpg</imagetwo>
+		<heroimage>zac-single-bed-hero.jpg</heroimage>
+	</catalogproduct>
+	<catalogproduct id="8" type="furniture">
+		<subtype>bed</subtype>
+		<product>My First Toddler Bed</product>
+		<brand>Artdeco</brand>
+		<price>129</price>
+		<details>
+		Set low to the ground for easy access, little ones will feel so grown-up when they climb into bed all by themselves with this fabulous first bed.  High sides provide comfort and security so toddlers can sleep soundly all night long. 
+		</details>
+		<material>
+			<mtype>Wood</mtype>
+		</material>
+		<care>Finished in a stylish light oak and white, the look is smart and contemporary and suits both boys and girls rooms alike.</care>
+		<imageone>my-first-toddler-bed-1.jpg</imageone>
+		<imagetwo>my-first-toddler-bed-2.jpg</imagetwo>
+		<heroimage>my-first-toddler-bed-hero.jpg</heroimage>
+	</catalogproduct>
+	<catalogproduct id="9" type="furniture">
+		<subtype>table</subtype>
+		<product>Host Tray Table</product>
+		<brand>Universal</brand>
+		<price>29</price>
+		<details>
+		This handy tray table folds flat and stores neatly out of the way when not in use, making a great space saving furniture choice for occasional use. 
+		</details>
+		<material>
+			<mtype>Wood</mtype>
+		</material>
+		<care>This tidy table makes entertaining and TV dinners quick and easy.</care>
+		<imageone>host-tray-table-1.jpg</imageone>
+		<imagetwo>host-tray-table-2.jpg</imagetwo>
+		<heroimage>host-tray-table-hero.jpg</heroimage>
+	</catalogproduct>
+	<catalogproduct id="10" type="furniture">
+		<subtype>table</subtype>
+		<product>Geo Multi-Use Table</product>
+		<brand>Ikea</brand>
+		<price>40</price>
+		<details>
+		For a handy coffee table or TV stand with storage, check out the versatile Geo Multi-Use table. 
+		</details>
+		<material>
+			<mtype>Wood</mtype></material>
+		<care>This utility table is great for everyday use thanks to its hardwearing melamine top.</care>
+		<imageone>geomulti-use-table-1.jpg</imageone>
+		<imagetwo>geomulti-use-table-2.jpg</imagetwo>
+		<heroimage>geomulti-use-table-hero.jpg</heroimage>
+	</catalogproduct>
+	<catalogproduct id="11" type="furniture">
+		<subtype>table</subtype>
+		<product>Hayman Coffee Table</product>
+		<brand>Fantastic</brand>
+		<price>99</price>
+		<details>
+		Add a relaxed vibe to your lounge room with this smart white Hayman Coffee Table. Featuring slatted sides and a slimline design, this versatile coffee table will add a laid-back coastal look to your home. 
+		</details>
+		<material>
+			<mtype>Wood</mtype>
+		</material>
+		<care>A generously sized top and shelf underneath gives plenty of room to store reading material and keep remotes to hand. </care>
+		<imageone>hayman-coffee-table-1.jpg</imageone>
+		<imagetwo>hayman-coffee-table-2.jpg</imagetwo>
+		<heroimage>hayman-coffee-table-hero.jpg</heroimage>
+	</catalogproduct>
+	<catalogproduct id="12" type="furniture">
+		<subtype>table</subtype>
+		<product>Studio Coffee Table</product>
+		<brand>The Factory</brand>
+		<price>129</price>
+		<details>
+		Featuring a combination of timber look panels and a black metal frame, this smart coffee table will add a touch of industrial style to your home. A warm wood foil finish gives a realistic timber look for a great price. 
+		</details>
+		<material>
+			<mtype>Wood</mtype>
+			<mtype>Steel</mtype>
+		</material>
+		<care>The quality foil and metal materials provide a strong, hardwearing surface for long-lasting use, backed by a three-year warranty. </care>
+		<imageone>studio-coffee-table-1.jpg</imageone>
+		<imagetwo>studio-coffee-table-2.jpg</imagetwo>
+		<heroimage>studio-coffee-table-hero.jpg</heroimage>
+	</catalogproduct>
+	<catalogproduct id="13" type="furniture">
+		<subtype>storage</subtype>
+		<product>Lynx Small Wide Bookcase</product>
+		<brand>Universal</brand>
+		<price>59</price>
+		<details>
+		Adjustable shelves allow you to display items of different heights. Create a stylish cabinet and prevent dust build up by adding two glass doors.  
+		</details>
+		<material>
+			<mtype>Wood</mtype>
+		</material>
+		<care>Add glass doors to create a stylish cabinet for glassware, ornaments or office files.</care>
+		<imageone>lynx-small-wide-bookcase-1.jpg</imageone>
+		<imagetwo>lynx-small-wide-bookcase-2.jpg</imagetwo>
+		<heroimage>lynx-small-wide-bookcase-hero.jpg</heroimage>
+	</catalogproduct>
+	<catalogproduct id="14" type="furniture">
+		<subtype>storage</subtype>
+		<product>Coda 2 Drawer Insert</product>
+		<brand>Ikea</brand>
+		<price>59</price>
+		<details>
+		This handy 2-drawer unit provides great additional storage where you need it most. Use as a shelf insert with the Coda 6 and 10 Shelf bookcase, as a wardrobe insert or as a free-standing drawer unit for your desk or shelf to keep paperwork and stationery neatly stored away. 
+		</details>
+		<material>
+			<mtype>Wood</mtype>
+		</material>
+		<care>Smooth metal runners make these drawers easy to open and close for everyday ease of use.</care>
+		<imageone>coda-2-drawer-insert-1.jpg</imageone>
+		<imagetwo>coda-2-drawer-insert-2.jpg</imagetwo>
+		<heroimage>coda-2-drawer-insert-hero.jpg</heroimage>
+	</catalogproduct>
+	<catalogproduct id="15" type="furniture">
+		<subtype>storage</subtype>
+		<product>Alpine 2 Door Wardobe</product>
+		<brand>Ikea</brand>
+		<price>99</price>
+		<details>
+		The sleek look and incredible price of this robe make it a smart buy. With plenty of hanging space it's an ideal storage solution in the in the spareroom or kids room.A Hanging rail is included.  
+		</details>
+		<material>
+			<mtype>Wood</mtype>
+		</material>
+		<care>Sleek, silver coloured handles and a smart brown-black finish give a stylish, contemporary look.</care>
+		<imageone>alpine-2-door-wardobe-1.jpg</imageone>
+		<imagetwo>alpine-2-door-wardobe-2.jpg</imagetwo>
+		<heroimage>alpine-2-door-wardobe-hero.jpg</heroimage>
+	</catalogproduct>
+	<catalogproduct id="16" type="furniture">
+		<subtype>storage</subtype>
+		<product>Home 2 Door Wardrobe</product>
+		<brand>Artdeco</brand>
+		<price>459</price>
+		<details>
+		Get the look and convenience of a built-in wardrobes without the need to commit to expensive home renovations. The freestanding 120 cm Home Robe features two aluminium framed sliding doors, a fixed top shelf, and a strong hanging rail. Cheating has never been easier with this no fuss solution.  
+		</details>
+		<material>
+			<mtype>Wood</mtype>
+		</material>
+		<care>Shock-absorbing bumper strips reduce noise and impact when opening and closing the doors.</care>
+		<imageone>home-2-door-wardrobe-1.jpg</imageone>
+		<imagetwo>home-2-door-wardrobe-2.jpg</imagetwo>
+		<heroimage>home-2-door-wardrobe-hero.jpg</heroimage>
+	</catalogproduct>
+	<catalogproduct id="17" type="accessories">
+		<subtype>HomeDeco</subtype>
+		<product>Galaxy Cheval Mirror</product>
+		<brand>Universal</brand>
+		<price>59</price>
+		<details>
+		Take a good long look at yourself and throw some light around your bedroom with this sleek, modern cheval mirror. 
+		</details>
+		<material>
+			<mtype>Glass</mtype>
+			<mtype>Metal</mtype>
+		</material>
+		<care>Available in a range of colours.</care>
+		<imageone>galaxy-cheval-mirror-1.jpg</imageone>
+		<imagetwo>galaxy-cheval-mirror-2.jpg</imagetwo>
+		<heroimage>galaxy-cheval-mirror-hero.jpg</heroimage>
+	</catalogproduct>
+	<catalogproduct id="18" type="accessories">
+		<subtype>TextilesRugs</subtype>
+		<product>Oliver Rug</product>
+		<brand>Artdeco</brand>
+		<price>79</price>
+		<details>
+		Refresh your space with the tribal energy of a pure cotton rug that has been stonewashed for an authentic vintage look.
+		</details>
+		<material>
+			<mtype>Cotton</mtype>
+		</material>
+		<care>Hand woven for a lighter weight flatweave, this black and natural white rug is easy to style and features a low profile to fit under doors</care>
+		<imageone>oliver-rug-1.jpg</imageone>
+		<imagetwo>oliver-rug-2.jpg</imagetwo>
+		<heroimage>oliver-rug-hero.jpg</heroimage>
+	</catalogproduct>
+	<catalogproduct id="19" type="accessories">
+		<subtype>Lighting</subtype>
+		<product>Mackenzie Table Lamp </product>
+		<brand>The Factory</brand>
+		<price>49</price>
+		<details>
+		Perfect for the home office or bedroom, this stylish angle poise lamp features a contemporary design in a combination of metal and wood for a funky look. Choose from a black or white finish to suit your interior.
+		</details>
+		<material>
+			<mtype>Plastic</mtype>
+			<mtype>Metal</mtype>
+		</material>
+		<care>Fully assembled, this lamp is packed in one box so you can take it home and use it straight away.</care>
+		<imageone>mackenzie-table-lamp-1.jpg</imageone>
+		<imagetwo>mackenzie-table-lamp-2.jpg</imagetwo>
+		<heroimage>mackenzie-table-lamp-hero.jpg</heroimage>
+	</catalogproduct>
+	<catalogproduct id="20" type="accessories">
+		<subtype>PlantPotsStands</subtype>
+		<product>Maine 2 Shelf Storage Rack </product>
+		<brand>Artdeco</brand>
+		<price>35</price>
+		<details>
+		The Maine 2 Tier Shelving Bench makes storage simple with its charming white painted finish. The unit has 2 wide shelves, great for multipurpose storage in the bathroom or even as a shoe rack.
+		</details>
+		<material>
+			<mtype>Wood</mtype>
+		</material>
+		<care>The Maine 2 Tier Shelving Bench measures 63cm long, 37cm wide and 53cm tall</care>
+		<imageone>maine-2-shelf-storage-rack-1.jpg</imageone>
+		<imagetwo>maine-2-shelf-storage-rack-2.jpg</imagetwo>
+		<heroimage>maine-2-shelf-storage-rack-hero.jpg</heroimage>
+	</catalogproduct>
+	<catalogproduct id="21" type="accessories">
+        <subtype>TextilesRugs</subtype>
+        <product>Blaze Rug</product>
+        <brand>Ikea</brand>
+        <price>69</price>
+        <details>Black and White. Featuring an eye-catching diamond design in ultra-contemporary black and white, this smart rug will give any room a stylish edge. </details>
+        <material>
+            <mtype>Polypropylene</mtype>
+        </material>
+        <care>160 x 215 cm. A great sized rug for versatile use anywhere in the home.
+        </care>
+        <imageone>blaze-rug-1.jpg</imageone>
+        <imagetwo>blaze-rug-2.jpg</imagetwo>
+        <heroimage>blaze-rug-hero.jpg</heroimage>
+    </catalogproduct>
+    <catalogproduct id="22" type="accessories">
+        <subtype>Lighting</subtype>
+        <product>Mercury Table Lamp</product>
+        <brand>Fantastic</brand>
+        <price>49</price>
+        <details>
+			Add funky appeal to any room of your home with the Mercury Table Lamp. Featuring a contemporary chrome base with sleek black lamp shade, this table lamp will be the stand-out feature in any living space. Place it on your bedside table for night time reading, or make it the centre-piece of your living room, either way you'll have a modern light that is sure to turn heads!
+        </details>
+        <material>
+            <mtype>Linen fabric</mtype>
+            <mtype>Chrome</mtype>
+        </material>
+        <care>
+			Modern and Funky. Add a funky vibe to any room with a contemporary chrome base and sleek black shade.Perfect for any room, this stand-out table lamp will add the finishing touches to any space.
+		</care>
+        <imageone>mercury-table-lamp-1.jpg</imageone>
+        <imagetwo>mercury-table-lamp-2.jpg </imagetwo>
+        <heroimage>mercury-table-lamp-hero.jpg</heroimage>
+    </catalogproduct>
+    <catalogproduct id="23" type="accessories">
+        <subtype>TextilesRugs</subtype>
+        <product>Pebble Rug</product>
+        <brand>Ikea</brand>
+        <price>29</price>
+        <details>
+			Featuring a pretty pebble design in black and white, this modern rug will add a fresh arty look to your home.
+        </details>
+        <material>
+            <mtype>Hemp fabric</mtype>
+            <mtype>Polypropylene</mtype>
+        </material>
+        <care> With a classic Ikea and cut pile, the Pebble Rug is comfortable under foot and hard wearing - perfect for busy households.
+		</care>
+        <imageone>pebble-rug-1.jpg</imageone>
+        <imagetwo>pebble-rug-2.jpg</imagetwo>
+        <heroimage>pebble-rug-hero.jpg</heroimage>
+    </catalogproduct>
+    <catalogproduct id="24" type="accessories">
+        <subtype>Lighting</subtype>
+        <product>Wiggles Table Lamp</product>
+        <brand>Fantastic</brand>
+        <price>20</price>
+        <details>
+			Little ones will love feeling cosy and safe with their favourite Wiggles' characters shining a light in their room with this cute Wiggles lamp. Licensed exclusively to Fantastic Furniture, it features high quality graphics and a sturdy metal base with an easy on-off switch, perfect for little hands.
+        </details>
+        <material>
+            <mtype>Polypropylene shade</mtype>
+            <mtype>Chrome base</mtype>
+        </material>
+        <care>
+		The Wiggles lamp is designed to co-ordinate with the Wiggles Bedroom range, available exclusively from Fantastic Furniture.
+        </care>
+        <imageone>wiggles-table-lamp-1.jpg</imageone>
+        <imagetwo>wiggles-table-lamp-2.jpg</imagetwo>
+        <heroimage>wiggles-table-lamp-hero.jpg</heroimage>
+    </catalogproduct>
+</catalog>
+	
